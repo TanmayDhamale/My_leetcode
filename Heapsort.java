@@ -1,4 +1,4 @@
-public class HeapSort {
+public class Heapsort {
     public void sort(int arr[]) {
         int n = arr.length;
 
@@ -57,7 +57,7 @@ public class HeapSort {
     // Driver code
     public static void main(String args[]) {
         int arr[] = {12, 11, 13, 5, 6, 7};
-        HeapSort ob = new HeapSort();
+        Heapsort ob = new Heapsort();
         ob.sort(arr);
 
         System.out.println("Sorted array is");
