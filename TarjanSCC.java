@@ -5,7 +5,7 @@ class TarjanSCC {
     private final List<List<Integer>> graph;
     private final int[] discovery, low;
     private final boolean[] inStack;
-    private final Stack<Integer> stack; // ✅ Fixed Stack declaration
+    private final Mystack<Integer> stack; // ✅ Fixed Stack declaration
     private final List<List<Integer>> sccs; // List of SCCs
 
     public TarjanSCC(int vertices) {
@@ -14,7 +14,7 @@ class TarjanSCC {
         discovery = new int[vertices];
         low = new int[vertices];
         inStack = new boolean[vertices];
-        stack = new Stack<>(); // ✅ Fixed: Use correct generic type
+        stack = new Mystack<>(); // ✅ Fixed: Use correct generic type
         sccs = new ArrayList<>();
         Arrays.fill(discovery, -1); // Mark as unvisited
     }
