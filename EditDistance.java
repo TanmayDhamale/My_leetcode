@@ -29,8 +29,8 @@ class EditDistance {
     }
 
     public static void main(String[] args) {
-        String word1 = "horse";
-        String word2 = "ros";
+        String word1 = "cross";
+        String word2 = "fox";
         System.out.println("Minimum Edit Distance: " + minEditDistance(word1, word2));
     }
 }
