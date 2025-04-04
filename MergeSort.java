@@ -62,7 +62,7 @@ public class MergeSort {
     }
 
     public static void main(String args[]) {
-        int arr[] = {12, 11, 13, 5, 6, 7};
+        int arr[] = {22, 11, 33, 55, 66, 77};
         mergeSort(arr, 0, arr.length - 1);
         System.out.println("Sorted array:");
         printArray(arr);
