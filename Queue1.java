@@ -1,9 +1,9 @@
-class Queue {
+class Queue1 {
     private int arr[];
     private int front, rear, capacity, size;
 
     // Constructor to initialize queue
-    public Queue(int capacity) {
+    public Queue1(int capacity) {
         this.capacity = capacity;
         arr = new int[capacity];
         front = 0;
@@ -68,7 +68,7 @@ class Queue {
     }
 
     public static void main(String[] args) {
-        Queue queue = new Queue(5); // Queue of size 5
+        Queue1 queue = new Queue1(5); // Queue of size 5
 
         queue.enqueue(10);
         queue.enqueue(20);

@@ -27,7 +27,7 @@ public class HopcroftKarp {
     }
 
     public boolean bfs() {
-        Queue<Integer> queue = new LinkedList<>();
+        Queue1<Integer> queue = new LinkedList<>();
 
         for (int u = 1; u <= uSize; u++) {
             if (pairU[u] == NIL) {
