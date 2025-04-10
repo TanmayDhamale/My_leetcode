@@ -20,7 +20,7 @@ class TopologicalSortBFS {
     }
 
     public List<Integer> topologicalSort() {
-        Queue<Integer> queue = new LinkedList<Integer>(); // FIX: Explicit Type Argument
+        Queue1<Integer> queue = new LinkedList<Integer>(); // FIX: Explicit Type Argument
         List<Integer> topOrder = new ArrayList<>();
 
         for (int i = 0; i < vertices; i++) {
